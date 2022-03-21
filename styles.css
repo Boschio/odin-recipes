@@ -1,0 +1,26 @@
+body {
+    background-color: wheat;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    
+}
+.border {
+    border-style: double;
+    border-width: 20px;
+    border-color: chocolate;
+}
+.links {
+    list-style: none;
+    font-weight: bold;
+}
+.links, .stuff, .steps {
+    display: inline-block;
+    list-style-position: inside;
+    text-align: left;
+}
+.links, .stuff {
+    list-style-type: circle;
+}
+.steps {
+    list-style: decimal;
+}
